@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: git push origin master:pre -f
+      - run: git push origin main:pre -f
