@@ -2,10 +2,7 @@ name: pre
 
 on:
   push:
-    branches: [master]
-
-permissions:
-  contents: write
+    branches: [main]
 
 jobs:
   branch:
